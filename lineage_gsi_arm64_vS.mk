@@ -9,6 +9,8 @@ PRODUCT_NAME := lineage_gsi_arm64_vS
 PRODUCT_DEVICE := lineage_gsi_arm64
 PRODUCT_MODEL := LineageOS GSI on ARM64
 
+PRODUCT_CHARACTERISTICS := device
+
 # PHH-SU
 PRODUCT_PACKAGES += \
     su \
