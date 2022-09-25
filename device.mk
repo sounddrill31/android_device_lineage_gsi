@@ -23,6 +23,10 @@ PRODUCT_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay \
     $(DEVICE_PATH)/overlay-lineage
 
+# QCOM in-call audio fix from PHH
+PRODUCT_PACKAGES += \
+    QcRilAm
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
 
